@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OnomatopiaTemplate } from './models/onomatopialist.models';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'output';
+
+  onomatopiaList: OnomatopiaTemplate[] = [];
+
+  
+  
+  onReceiveOnomatopia(newOnomatopia: OnomatopiaTemplate):void{
+    
+    this.onomatopiaList.push(newOnomatopia);
+    console.log(this.onomatopiaList);
+    
+  }
 }
