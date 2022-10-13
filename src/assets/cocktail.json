@@ -1,0 +1,18 @@
+{
+    "cocktailList":[
+    {
+        "name":"Punch Exotique",
+        "price":99.99,
+        "picture":"assets/punch-exotique.jpg"
+    },
+    {
+        "name": "Mojito",
+        "price": 99.99,
+        "picture": "assets/mojito.jpg"
+    },
+    {
+        "name": "Aperol Spritz",
+        "price": 99.99,
+        "picture": "assets/aperol-spritz.jpg"
+    }
+]}

@@ -4,5 +4,11 @@ export class Cocktail{
         public price: number,
         public picture: string
     ){}
+}
+
+export class CocktailJson{
     
+    constructor(
+        public cocktailList: Cocktail[]
+    ){}
 }
